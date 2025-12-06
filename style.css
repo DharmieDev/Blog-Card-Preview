@@ -87,3 +87,37 @@ h2:hover {
     line-height: 1.7;
     color: hsl(0, 0%, 42%);
 }
+
+@media (width <= 412px) {
+    .container {
+        display: flex;
+        width: 327px;
+        height: 500px;
+    }
+
+    .container > img {
+        width: 279px;
+        height: 200px;
+    }
+
+    .text-container {
+        width: 279px;
+        height: 179px;
+    }
+
+    span, .one {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h4, .two {
+        font-size: 14px;
+    }
+
+    .avatar {
+        margin-right: 150px;
+    }
+}
